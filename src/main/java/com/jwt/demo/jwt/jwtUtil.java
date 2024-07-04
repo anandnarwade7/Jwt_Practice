@@ -3,14 +3,10 @@ package com.jwt.demo.jwt;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import javax.naming.AuthenticationException;
-
 import org.springframework.stereotype.Service;
-
 import com.jwt.demo.userandrole.HomeEntity;
 import com.jwt.demo.userandrole.HomeReposistory;
-
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jws;

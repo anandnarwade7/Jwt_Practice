@@ -3,15 +3,12 @@ package com.jwt.demo.jwt;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.filter.OncePerRequestFilter;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jwt.demo.userandrole.HomeEntity;
 import com.jwt.demo.userandrole.HomeReposistory;
-
 import io.jsonwebtoken.Claims;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
